@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.inputData{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+.btn{
+    cursor: pointer;
+    padding: 3px;
+
+}
+
+.del:hover{
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: rgb(234, 234, 234);
+    border: 1px solid blue;
+}
+
+
+
+@media screen and (min-width: 670px) {
+    .inputData {
+        width: 70%;
+        padding: 5px;
+        margin: 8px;
+    }
+}
+
+
+
+
